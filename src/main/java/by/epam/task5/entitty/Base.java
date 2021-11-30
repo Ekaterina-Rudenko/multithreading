@@ -17,11 +17,11 @@ public class Base {
     private static Base instance;
     private static ReentrantLock lock = new ReentrantLock();
     private static ReentrantLock lockTerminal = new ReentrantLock();
-    private static final AtomicBoolean isExist = new AtomicBoolean(false);
+    private static AtomicBoolean isExist = new AtomicBoolean(false);
     private final Deque<Terminal> terminalDeque = new ArrayDeque<>();
     private static final int NUMBER_OF_TERMINALS = 10;
     private static final int MAX_WAREHOUSE_CAPACITY = 1000;
-    private static final AtomicInteger currentWarehouseSize = new AtomicInteger();
+    private static AtomicInteger currentWarehouseSize = new AtomicInteger();
     private Semaphore semaphore = new Semaphore(NUMBER_OF_TERMINALS, true );
 
     private Base() {
