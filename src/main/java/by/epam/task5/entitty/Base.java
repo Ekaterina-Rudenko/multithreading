@@ -31,7 +31,7 @@ public class Base {
         currentWarehouseSize.set(200);
     }
 
-    private void init() {
+    private void init() { //todo
 
     }
 
