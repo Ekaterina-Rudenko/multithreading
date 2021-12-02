@@ -9,7 +9,7 @@ import java.util.concurrent.TimeUnit;
 
 public class Terminal {
     static final Logger logger = LogManager.getLogger();
-    public final long terminalId;
+    private final long terminalId;
 
     public Terminal() {
         this.terminalId = IdGenerator.generate();
