@@ -22,17 +22,13 @@ public class Base {
     private static final int NUMBER_OF_TERMINALS = 10;
     private static final int MAX_WAREHOUSE_CAPACITY = 1000;
     private static AtomicInteger currentWarehouseSize = new AtomicInteger();
-    private Semaphore semaphore = new Semaphore(NUMBER_OF_TERMINALS, true );
+    private Semaphore semaphore = new Semaphore(NUMBER_OF_TERMINALS, true);
 
     private Base() {
         for (int i = 0; i < NUMBER_OF_TERMINALS; i++) {
             terminalDeque.add(new Terminal());
         }
-        currentWarehouseSize.set(200);
-    }
-
-    private void init() { //todo
-
+        currentWarehouseSize.set(MAX_WAREHOUSE_CAPACITY / 3);
     }
 
     public static Base getInstance() {
@@ -55,52 +51,54 @@ public class Base {
         try {
             semaphore.acquire();
             lockTerminal.lock();
+            //TimeUnit.MILLISECONDS.sleep(500);
             freeTerminal = terminalDeque.poll();
-            logger.info(Thread.currentThread().getName() + " got terminal " + freeTerminal.getTerminalId());
+            logger.info("Truck " + truck.getId() + " got terminal " + freeTerminal.getTerminalId());
         } catch (InterruptedException e) {
             e.printStackTrace();
         } finally {
             lockTerminal.unlock();
             return freeTerminal;
-        }}
+        }
+    }
 
-        public void releaseTerminal (Terminal terminal){
-            lockTerminal.lock();
-            try {
-                terminalDeque.add(terminal);
-                logger.info(Thread.currentThread().getName() + " release " + terminal.getTerminalId());
-            } finally {
-                lockTerminal.unlock();
-            }
+    public void releaseTerminal(Terminal terminal) {
+        lockTerminal.lock();
+        try {
+            terminalDeque.add(terminal);
+            logger.info(Thread.currentThread().getName() + " released " + terminal.getTerminalId());
+        } finally {
+            lockTerminal.unlock();
             semaphore.release();
         }
-
-        public void addToWarehouse ( int loadSize) throws CustomException {
-            while ((currentWarehouseSize.intValue() + loadSize) >= MAX_WAREHOUSE_CAPACITY) {
-                try {
-                    TimeUnit.MILLISECONDS.sleep(500);
-                    logger.info("The warehouse is overloaded...");
-                } catch (InterruptedException e) {
-                    logger.info("Operation was interrupted", e);
-                    throw new CustomException("Operation was interrupted", e);
-                }
-            }
-            currentWarehouseSize.getAndAdd(loadSize);
-            logger.info("The current size of warehouse is " + currentWarehouseSize.intValue());
-        }
-
-        public void removeFromWarehouse (int truckCapacity) throws CustomException {
-            while ((currentWarehouseSize.intValue() - truckCapacity) < 0) {
-                try {
-                    TimeUnit.MILLISECONDS.sleep(500);
-                    logger.info("The warehouse is overloaded...");
-                } catch (InterruptedException e) {
-                    logger.info("Operation was interrupted", e);
-                    throw new CustomException("Operation was interrupted", e);
-                }
-            }
-            currentWarehouseSize.getAndAdd(-truckCapacity);
-            logger.info("The current size of warehouse is " + currentWarehouseSize.intValue());
-        }
-
     }
+
+    public void addToWarehouse(int loadSize) throws CustomException {
+        while ((currentWarehouseSize.intValue() + loadSize) >= MAX_WAREHOUSE_CAPACITY) {
+            try {
+                TimeUnit.SECONDS.sleep(1);
+                logger.info("The warehouse is overloaded...");
+            } catch (InterruptedException e) {
+                logger.info("Operation was interrupted", e);
+                throw new CustomException("Operation was interrupted", e);
+            }
+        }
+        currentWarehouseSize.getAndAdd(loadSize);
+        logger.info("The current size of warehouse is " + currentWarehouseSize.intValue());
+    }
+
+    public void removeFromWarehouse(int truckCapacity) throws CustomException {
+        while ((currentWarehouseSize.intValue() - truckCapacity) < 0) {
+            try {
+                TimeUnit.SECONDS.sleep(1);
+                logger.info("The warehouse is overloaded...");
+            } catch (InterruptedException e) {
+                logger.info("Operation was interrupted", e);
+                throw new CustomException("Operation was interrupted", e);
+            }
+        }
+        currentWarehouseSize.getAndAdd(-truckCapacity);
+        logger.info("The current size of warehouse is " + currentWarehouseSize.intValue());
+    }
+
+}
