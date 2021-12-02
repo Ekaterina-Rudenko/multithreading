@@ -18,27 +18,29 @@ public class Terminal {
     public long getTerminalId() {
         return terminalId;
     }
+
     public void loadTruck(Truck truck) throws CustomException {
         Base base = Base.getInstance();
-        base.removeFromWarehouse(truck.getCapacity());
-        try{
-            logger.info("Truck #" + truck.getId() + " is being loaded");
+        logger.info("Truck " + truck.getId() + " is being loaded ... -" + truck.getCapacity());
+        try {
+            base.removeFromWarehouse(truck.getCapacity());
             TimeUnit.MILLISECONDS.sleep(300);
-        } catch (InterruptedException e){
-            logger.error("Operation was interrupted",e);
+        } catch (InterruptedException e) {
+            logger.error("Operation was interrupted", e);
             throw new CustomException("Operation was interrupted", e);
         }
     }
+
     public void unloadTruck(Truck truck) throws CustomException {
-            Base base = Base.getInstance();
+        Base base = Base.getInstance();
+        logger.info("Truck " + truck.getId() + " is being unloaded... +" + truck.getLoadSize());
+        try {
             base.addToWarehouse(truck.getLoadSize());
-            try{
-                logger.info("Truck #" + truck.getId() + " is being unloaded");
-                TimeUnit.MILLISECONDS.sleep(300);
-            } catch (InterruptedException e){
-                logger.error("Operation was interrupted", e);
-                throw new CustomException("Operation was interrupted", e);
-            }
+            TimeUnit.MILLISECONDS.sleep(300);
+        } catch (InterruptedException e) {
+            logger.error("Operation was interrupted", e);
+            throw new CustomException("Operation was interrupted", e);
         }
+    }
 
 }
