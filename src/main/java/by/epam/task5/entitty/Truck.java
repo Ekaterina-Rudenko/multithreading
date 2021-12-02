@@ -23,7 +23,7 @@ public class Truck implements Callable {
         String terminalId;
         try {
             terminal = base.getTerminal(this);
-            terminalId = String.valueOf(terminal.terminalId);
+            terminalId = String.valueOf(terminal.getTerminalId());
             terminal.unloadTruck(this);
             terminal.loadTruck(this);
         } finally {
