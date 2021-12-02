@@ -18,11 +18,10 @@ public class Truck implements Callable {
 
     @Override
     public String call() throws Exception {
-        Base base = null;
+        Base base = Base.getInstance();
         Terminal terminal = null;
         String terminalId;
         try {
-            base = Base.getInstance();
             terminal = base.getTerminal(this);
             terminalId = String.valueOf(terminal.terminalId);
             terminal.unloadTruck(this);
@@ -30,7 +29,7 @@ public class Truck implements Callable {
         } finally {
             base.releaseTerminal(terminal);
         }
-        return "Truck #" + this.truckId + " was served by terminal #" + terminalId + ". Truck isPerishable - " + this.isPerishable();
+        return "Truck #" + this.truckId + " has been served by terminal #" + terminalId + ". Truck isPerishable - " + this.isPerishable();
     }
 
     public long getId() {
