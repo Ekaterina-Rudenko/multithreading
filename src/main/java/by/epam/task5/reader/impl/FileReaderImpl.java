@@ -15,7 +15,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class FileReaderImpl implements FileReader {
-    static final Logger logger = LogManager.getLogger();
+    static Logger logger = LogManager.getLogger();
     public List<String> readTruckData(String path) throws CustomException {
         ClassLoader loader = getClass().getClassLoader();
         URL resource = loader.getResource(path);
