@@ -11,7 +11,7 @@ import java.util.List;
 
 
 public class DataParserImpl implements DataParser {
-    static final Logger logger = LogManager.getLogger();
+    static Logger logger = LogManager.getLogger();
     static final String REGEX_DELIMITER = " ";
     static final String EQUALS_DELIMITER = "=";
     static final int PARAMETERS_SIZE = 4;
