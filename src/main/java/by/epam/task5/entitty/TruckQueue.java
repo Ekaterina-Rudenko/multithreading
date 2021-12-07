@@ -8,7 +8,7 @@ import java.util.Deque;
 import java.util.List;
 
 public class TruckQueue {
-    static final Logger logger = LogManager.getLogger();
+    static Logger logger = LogManager.getLogger();
     private final Deque<Truck> truckQueue = new ArrayDeque<>();
 
     public Truck getTruckFromQueue() {
