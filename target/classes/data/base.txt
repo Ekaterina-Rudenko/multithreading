@@ -1,3 +1,0 @@
-numberOfTerminals=6
-warehouseCapacity=1000
-initialWarehouseSize=300
