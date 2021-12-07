@@ -24,10 +24,10 @@ public class Main {
         try {
             List<String> truckData = reader.readTruckData(TRUCK_INFO_FILE_PATH);
             List<Truck> trucks = parser.parseTruckList(truckData);
+            List<Future<String>> information = new ArrayList<>();
             ExecutorService executorService = Executors.newFixedThreadPool(trucks.size());
             TruckQueue truckQueue = new TruckQueue();
             truckQueue.addTruckListToQueue(trucks);
-            List<Future<String>> information = new ArrayList<>();
             while (truckQueue.size() > 0) {
                 Truck truck = truckQueue.getTruckFromQueue();
                 information.add(executorService.submit(truck));
