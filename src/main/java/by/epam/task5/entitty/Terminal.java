@@ -8,7 +8,7 @@ import org.apache.logging.log4j.Logger;
 import java.util.concurrent.TimeUnit;
 
 public class Terminal {
-    static final Logger logger = LogManager.getLogger();
+    static Logger logger = LogManager.getLogger();
     private final long terminalId;
 
     public Terminal() {
