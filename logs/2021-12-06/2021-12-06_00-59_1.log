@@ -1,0 +1,91 @@
+2021-12-06 00:55:51 [pool-2-thread-12] INFO  by.epam.task5.entitty.Base - pool-2-thread-12 released 4
+2021-12-06 00:55:51 [pool-2-thread-19] INFO  by.epam.task5.entitty.Base - pool-2-thread-19 released 3
+2021-12-06 00:55:51 [pool-2-thread-10] INFO  by.epam.task5.entitty.Base - pool-2-thread-10 released 2
+2021-12-06 00:55:51 [pool-2-thread-5] INFO  by.epam.task5.entitty.Base - Truck 14 got terminal 1
+2021-12-06 00:55:51 [pool-2-thread-20] INFO  by.epam.task5.entitty.Base - Truck 29 got terminal 5
+2021-12-06 00:55:51 [pool-2-thread-5] INFO  by.epam.task5.entitty.Terminal - Truck 14 is being unloaded... +14
+2021-12-06 00:55:51 [pool-2-thread-6] INFO  by.epam.task5.entitty.Base - Truck 15 got terminal 4
+2021-12-06 00:55:51 [pool-2-thread-20] INFO  by.epam.task5.entitty.Terminal - Truck 29 is being unloaded... +40
+2021-12-06 00:55:51 [pool-2-thread-5] INFO  by.epam.task5.entitty.Base - The current size of warehouse is 333
+2021-12-06 00:55:51 [pool-2-thread-7] INFO  by.epam.task5.entitty.Base - Truck 16 got terminal 3
+2021-12-06 00:55:51 [pool-2-thread-6] INFO  by.epam.task5.entitty.Terminal - Truck 15 is being unloaded... +15
+2021-12-06 00:55:51 [pool-2-thread-20] INFO  by.epam.task5.entitty.Base - The current size of warehouse is 373
+2021-12-06 00:55:51 [pool-2-thread-15] INFO  by.epam.task5.entitty.Base - Truck 24 got terminal 2
+2021-12-06 00:55:51 [pool-2-thread-7] INFO  by.epam.task5.entitty.Terminal - Truck 16 is being unloaded... +7
+2021-12-06 00:55:51 [pool-2-thread-6] INFO  by.epam.task5.entitty.Base - The current size of warehouse is 388
+2021-12-06 00:55:51 [pool-2-thread-15] INFO  by.epam.task5.entitty.Terminal - Truck 24 is being unloaded... +25
+2021-12-06 00:55:51 [pool-2-thread-7] INFO  by.epam.task5.entitty.Base - The current size of warehouse is 395
+2021-12-06 00:55:51 [pool-2-thread-15] INFO  by.epam.task5.entitty.Base - The current size of warehouse is 420
+2021-12-06 00:55:51 [pool-2-thread-7] INFO  by.epam.task5.entitty.Terminal - Truck 16 is being loaded ... -15
+2021-12-06 00:55:51 [pool-2-thread-5] INFO  by.epam.task5.entitty.Terminal - Truck 14 is being loaded ... -15
+2021-12-06 00:55:51 [pool-2-thread-15] INFO  by.epam.task5.entitty.Terminal - Truck 24 is being loaded ... -30
+2021-12-06 00:55:51 [pool-2-thread-6] INFO  by.epam.task5.entitty.Terminal - Truck 15 is being loaded ... -15
+2021-12-06 00:55:51 [pool-2-thread-7] INFO  by.epam.task5.entitty.Base - The current size of warehouse is 405
+2021-12-06 00:55:51 [pool-2-thread-6] INFO  by.epam.task5.entitty.Base - The current size of warehouse is 360
+2021-12-06 00:55:51 [pool-2-thread-20] INFO  by.epam.task5.entitty.Terminal - Truck 29 is being loaded ... -40
+2021-12-06 00:55:51 [pool-2-thread-15] INFO  by.epam.task5.entitty.Base - The current size of warehouse is 375
+2021-12-06 00:55:51 [pool-2-thread-5] INFO  by.epam.task5.entitty.Base - The current size of warehouse is 345
+2021-12-06 00:55:51 [pool-2-thread-20] INFO  by.epam.task5.entitty.Base - The current size of warehouse is 305
+2021-12-06 00:55:52 [pool-2-thread-7] INFO  by.epam.task5.entitty.Base - pool-2-thread-7 released 3
+2021-12-06 00:55:52 [pool-2-thread-21] INFO  by.epam.task5.entitty.Base - Truck 30 got terminal 3
+2021-12-06 00:55:52 [pool-2-thread-21] INFO  by.epam.task5.entitty.Terminal - Truck 30 is being unloaded... +30
+2021-12-06 00:55:52 [pool-2-thread-21] INFO  by.epam.task5.entitty.Base - The current size of warehouse is 335
+2021-12-06 00:55:52 [pool-2-thread-15] INFO  by.epam.task5.entitty.Base - pool-2-thread-15 released 2
+2021-12-06 00:55:52 [pool-2-thread-6] INFO  by.epam.task5.entitty.Base - pool-2-thread-6 released 4
+2021-12-06 00:55:52 [pool-2-thread-5] INFO  by.epam.task5.entitty.Base - pool-2-thread-5 released 1
+2021-12-06 00:55:52 [pool-2-thread-20] INFO  by.epam.task5.entitty.Base - pool-2-thread-20 released 5
+2021-12-06 00:55:52 [pool-2-thread-3] INFO  by.epam.task5.entitty.Base - Truck 12 got terminal 2
+2021-12-06 00:55:52 [pool-2-thread-3] INFO  by.epam.task5.entitty.Terminal - Truck 12 is being unloaded... +9
+2021-12-06 00:55:52 [pool-2-thread-8] INFO  by.epam.task5.entitty.Base - Truck 17 got terminal 4
+2021-12-06 00:55:52 [pool-2-thread-8] INFO  by.epam.task5.entitty.Terminal - Truck 17 is being unloaded... +20
+2021-12-06 00:55:52 [pool-2-thread-4] INFO  by.epam.task5.entitty.Base - Truck 13 got terminal 1
+2021-12-06 00:55:52 [pool-2-thread-8] INFO  by.epam.task5.entitty.Base - The current size of warehouse is 364
+2021-12-06 00:55:52 [pool-2-thread-4] INFO  by.epam.task5.entitty.Terminal - Truck 13 is being unloaded... +12
+2021-12-06 00:55:52 [pool-2-thread-3] INFO  by.epam.task5.entitty.Base - The current size of warehouse is 344
+2021-12-06 00:55:52 [pool-2-thread-16] INFO  by.epam.task5.entitty.Base - Truck 25 got terminal 5
+2021-12-06 00:55:52 [pool-2-thread-4] INFO  by.epam.task5.entitty.Base - The current size of warehouse is 376
+2021-12-06 00:55:52 [pool-2-thread-16] INFO  by.epam.task5.entitty.Terminal - Truck 25 is being unloaded... +28
+2021-12-06 00:55:52 [pool-2-thread-16] INFO  by.epam.task5.entitty.Base - The current size of warehouse is 404
+2021-12-06 00:55:52 [pool-2-thread-21] INFO  by.epam.task5.entitty.Terminal - Truck 30 is being loaded ... -40
+2021-12-06 00:55:52 [pool-2-thread-21] INFO  by.epam.task5.entitty.Base - The current size of warehouse is 364
+2021-12-06 00:55:52 [pool-2-thread-8] INFO  by.epam.task5.entitty.Terminal - Truck 17 is being loaded ... -20
+2021-12-06 00:55:52 [pool-2-thread-8] INFO  by.epam.task5.entitty.Base - The current size of warehouse is 344
+2021-12-06 00:55:52 [pool-2-thread-3] INFO  by.epam.task5.entitty.Terminal - Truck 12 is being loaded ... -10
+2021-12-06 00:55:52 [pool-2-thread-16] INFO  by.epam.task5.entitty.Terminal - Truck 25 is being loaded ... -30
+2021-12-06 00:55:52 [pool-2-thread-4] INFO  by.epam.task5.entitty.Terminal - Truck 13 is being loaded ... -15
+2021-12-06 00:55:52 [pool-2-thread-3] INFO  by.epam.task5.entitty.Base - The current size of warehouse is 334
+2021-12-06 00:55:52 [pool-2-thread-16] INFO  by.epam.task5.entitty.Base - The current size of warehouse is 304
+2021-12-06 00:55:52 [pool-2-thread-4] INFO  by.epam.task5.entitty.Base - The current size of warehouse is 289
+2021-12-06 00:55:52 [pool-2-thread-21] INFO  by.epam.task5.entitty.Base - pool-2-thread-21 released 3
+2021-12-06 00:55:52 [pool-2-thread-8] INFO  by.epam.task5.entitty.Base - pool-2-thread-8 released 4
+2021-12-06 00:55:52 [pool-2-thread-14] INFO  by.epam.task5.entitty.Base - Truck 23 got terminal 3
+2021-12-06 00:55:52 [pool-2-thread-14] INFO  by.epam.task5.entitty.Terminal - Truck 23 is being unloaded... +10
+2021-12-06 00:55:52 [pool-2-thread-14] INFO  by.epam.task5.entitty.Base - The current size of warehouse is 299
+2021-12-06 00:55:52 [pool-2-thread-3] INFO  by.epam.task5.entitty.Base - pool-2-thread-3 released 2
+2021-12-06 00:55:52 [main] INFO  by.epam.task5.main.Main - Truck #12 has been served by terminal #2. Truck isPerishable - true
+2021-12-06 00:55:52 [pool-2-thread-4] INFO  by.epam.task5.entitty.Base - pool-2-thread-4 released 1
+2021-12-06 00:55:52 [pool-2-thread-16] INFO  by.epam.task5.entitty.Base - pool-2-thread-16 released 5
+2021-12-06 00:55:52 [main] INFO  by.epam.task5.main.Main - Truck #13 has been served by terminal #1. Truck isPerishable - false
+2021-12-06 00:55:52 [main] INFO  by.epam.task5.main.Main - Truck #14 has been served by terminal #1. Truck isPerishable - false
+2021-12-06 00:55:52 [main] INFO  by.epam.task5.main.Main - Truck #15 has been served by terminal #4. Truck isPerishable - true
+2021-12-06 00:55:52 [main] INFO  by.epam.task5.main.Main - Truck #16 has been served by terminal #3. Truck isPerishable - false
+2021-12-06 00:55:52 [main] INFO  by.epam.task5.main.Main - Truck #17 has been served by terminal #4. Truck isPerishable - false
+2021-12-06 00:55:52 [main] INFO  by.epam.task5.main.Main - Truck #18 has been served by terminal #5. Truck isPerishable - true
+2021-12-06 00:55:52 [main] INFO  by.epam.task5.main.Main - Truck #19 has been served by terminal #2. Truck isPerishable - false
+2021-12-06 00:55:52 [main] INFO  by.epam.task5.main.Main - Truck #20 has been served by terminal #5. Truck isPerishable - false
+2021-12-06 00:55:52 [main] INFO  by.epam.task5.main.Main - Truck #21 has been served by terminal #4. Truck isPerishable - false
+2021-12-06 00:55:52 [main] INFO  by.epam.task5.main.Main - Truck #22 has been served by terminal #1. Truck isPerishable - true
+2021-12-06 00:55:53 [pool-2-thread-14] INFO  by.epam.task5.entitty.Terminal - Truck 23 is being loaded ... -20
+2021-12-06 00:55:53 [pool-2-thread-14] INFO  by.epam.task5.entitty.Base - The current size of warehouse is 279
+2021-12-06 00:55:53 [pool-2-thread-14] INFO  by.epam.task5.entitty.Base - pool-2-thread-14 released 3
+2021-12-06 00:55:53 [main] INFO  by.epam.task5.main.Main - Truck #23 has been served by terminal #3. Truck isPerishable - false
+2021-12-06 00:55:53 [main] INFO  by.epam.task5.main.Main - Truck #24 has been served by terminal #2. Truck isPerishable - true
+2021-12-06 00:55:53 [main] INFO  by.epam.task5.main.Main - Truck #25 has been served by terminal #5. Truck isPerishable - false
+2021-12-06 00:55:53 [main] INFO  by.epam.task5.main.Main - Truck #26 has been served by terminal #1. Truck isPerishable - false
+2021-12-06 00:55:53 [main] INFO  by.epam.task5.main.Main - Truck #27 has been served by terminal #4. Truck isPerishable - true
+2021-12-06 00:55:53 [main] INFO  by.epam.task5.main.Main - Truck #28 has been served by terminal #3. Truck isPerishable - true
+2021-12-06 00:55:53 [main] INFO  by.epam.task5.main.Main - Truck #29 has been served by terminal #5. Truck isPerishable - false
+2021-12-06 00:55:53 [main] INFO  by.epam.task5.main.Main - Truck #30 has been served by terminal #3. Truck isPerishable - false
+2021-12-06 00:59:31 [main] INFO  epam.task5.parser.impl.DataParserImpl - Truck 10 is created Truck[truckId=10, loadSize=8, capacity=10, isPerishable=false]
+2021-12-06 00:59:31 [main] INFO  epam.task5.parser.impl.DataParserImpl - Truck 11 is created Truck[truckId=11, loadSize=10, capacity=10, isPerishable=false]
+2021-12-06 00:59:31 [main] INFO  epam.task5.parser.impl.DataParserImpl - Truck 12 is created Truck[truckId=12, loadSize=9, capacity=10, isPerishable=true]

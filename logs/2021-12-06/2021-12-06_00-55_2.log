@@ -1,0 +1,92 @@
+2021-12-06 00:55:50 [pool-2-thread-20] INFO  by.epam.task5.entitty.TruckQueue - Truck 29 was added to Queue
+2021-12-06 00:55:50 [pool-2-thread-6] INFO  by.epam.task5.entitty.TruckQueue - Truck 15 with perishable goods was added to Queue
+2021-12-06 00:55:50 [pool-2-thread-15] INFO  by.epam.task5.entitty.TruckQueue - Truck 24 with perishable goods was added to Queue
+2021-12-06 00:55:50 [pool-2-thread-12] INFO  by.epam.task5.entitty.TruckQueue - Truck 21 was added to Queue
+2021-12-06 00:55:50 [pool-2-thread-5] INFO  by.epam.task5.entitty.TruckQueue - Truck 14 was added to Queue
+2021-12-06 00:55:50 [pool-2-thread-16] INFO  by.epam.task5.entitty.TruckQueue - Truck 25 was added to Queue
+2021-12-06 00:55:50 [pool-2-thread-8] INFO  by.epam.task5.entitty.TruckQueue - Truck 17 was added to Queue
+2021-12-06 00:55:50 [pool-2-thread-3] INFO  by.epam.task5.entitty.TruckQueue - Truck 12 with perishable goods was added to Queue
+2021-12-06 00:55:50 [pool-2-thread-7] INFO  by.epam.task5.entitty.TruckQueue - Truck 16 was added to Queue
+2021-12-06 00:55:50 [pool-2-thread-4] INFO  by.epam.task5.entitty.TruckQueue - Truck 13 was added to Queue
+2021-12-06 00:55:50 [pool-2-thread-14] INFO  by.epam.task5.entitty.TruckQueue - Truck 23 was added to Queue
+2021-12-06 00:55:50 [pool-2-thread-21] INFO  by.epam.task5.entitty.TruckQueue - Truck 30 was added to Queue
+2021-12-06 00:55:50 [pool-2-thread-13] INFO  by.epam.task5.entitty.TruckQueue - Truck 22 is waiting for terminal...
+2021-12-06 00:55:50 [pool-2-thread-1] INFO  by.epam.task5.entitty.TruckQueue - Truck 10 is waiting for terminal...
+2021-12-06 00:55:50 [pool-2-thread-11] INFO  by.epam.task5.entitty.TruckQueue - Truck 20 is waiting for terminal...
+2021-12-06 00:55:50 [pool-2-thread-2] INFO  by.epam.task5.entitty.TruckQueue - Truck 11 is waiting for terminal...
+2021-12-06 00:55:50 [pool-2-thread-18] INFO  by.epam.task5.entitty.TruckQueue - Truck 27 is waiting for terminal...
+2021-12-06 00:55:50 [pool-2-thread-9] INFO  by.epam.task5.entitty.TruckQueue - Truck 18 is waiting for terminal...
+2021-12-06 00:55:50 [pool-2-thread-19] INFO  by.epam.task5.entitty.TruckQueue - Truck 28 is waiting for terminal...
+2021-12-06 00:55:50 [pool-2-thread-13] INFO  by.epam.task5.entitty.Base - Truck 22 got terminal 1
+2021-12-06 00:55:50 [pool-2-thread-17] INFO  by.epam.task5.entitty.TruckQueue - Truck 26 is waiting for terminal...
+2021-12-06 00:55:50 [pool-2-thread-1] INFO  by.epam.task5.entitty.Base - Truck 10 got terminal 2
+2021-12-06 00:55:50 [pool-2-thread-2] INFO  by.epam.task5.entitty.Base - Truck 11 got terminal 3
+2021-12-06 00:55:50 [pool-2-thread-18] INFO  by.epam.task5.entitty.Base - Truck 27 got terminal 4
+2021-12-06 00:55:50 [pool-2-thread-11] INFO  by.epam.task5.entitty.Base - Truck 20 got terminal 5
+2021-12-06 00:55:50 [pool-2-thread-10] INFO  by.epam.task5.entitty.TruckQueue - Truck 19 is waiting for terminal...
+2021-12-06 00:55:50 [pool-2-thread-18] INFO  by.epam.task5.entitty.Terminal - Truck 27 is being unloaded... +38
+2021-12-06 00:55:50 [pool-2-thread-11] INFO  by.epam.task5.entitty.Terminal - Truck 20 is being unloaded... +19
+2021-12-06 00:55:50 [pool-2-thread-1] INFO  by.epam.task5.entitty.Terminal - Truck 10 is being unloaded... +8
+2021-12-06 00:55:50 [pool-2-thread-11] INFO  by.epam.task5.entitty.Base - The current size of warehouse is 390
+2021-12-06 00:55:50 [pool-2-thread-18] INFO  by.epam.task5.entitty.Base - The current size of warehouse is 371
+2021-12-06 00:55:50 [pool-2-thread-1] INFO  by.epam.task5.entitty.Base - The current size of warehouse is 398
+2021-12-06 00:55:50 [pool-2-thread-13] INFO  by.epam.task5.entitty.Terminal - Truck 22 is being unloaded... +18
+2021-12-06 00:55:50 [pool-2-thread-2] INFO  by.epam.task5.entitty.Terminal - Truck 11 is being unloaded... +10
+2021-12-06 00:55:50 [pool-2-thread-2] INFO  by.epam.task5.entitty.Base - The current size of warehouse is 426
+2021-12-06 00:55:50 [pool-2-thread-13] INFO  by.epam.task5.entitty.Base - The current size of warehouse is 416
+2021-12-06 00:55:50 [pool-2-thread-12] INFO  by.epam.task5.entitty.TruckQueue - Truck 21 is waiting for terminal...
+2021-12-06 00:55:50 [pool-2-thread-5] INFO  by.epam.task5.entitty.TruckQueue - Truck 14 is waiting for terminal...
+2021-12-06 00:55:50 [pool-2-thread-20] INFO  by.epam.task5.entitty.TruckQueue - Truck 29 is waiting for terminal...
+2021-12-06 00:55:50 [pool-2-thread-6] INFO  by.epam.task5.entitty.TruckQueue - Truck 15 is waiting for terminal...
+2021-12-06 00:55:50 [pool-2-thread-21] INFO  by.epam.task5.entitty.TruckQueue - Truck 30 is waiting for terminal...
+2021-12-06 00:55:50 [pool-2-thread-7] INFO  by.epam.task5.entitty.TruckQueue - Truck 16 is waiting for terminal...
+2021-12-06 00:55:50 [pool-2-thread-15] INFO  by.epam.task5.entitty.TruckQueue - Truck 24 is waiting for terminal...
+2021-12-06 00:55:50 [pool-2-thread-3] INFO  by.epam.task5.entitty.TruckQueue - Truck 12 is waiting for terminal...
+2021-12-06 00:55:50 [pool-2-thread-4] INFO  by.epam.task5.entitty.TruckQueue - Truck 13 is waiting for terminal...
+2021-12-06 00:55:50 [pool-2-thread-8] INFO  by.epam.task5.entitty.TruckQueue - Truck 17 is waiting for terminal...
+2021-12-06 00:55:50 [pool-2-thread-14] INFO  by.epam.task5.entitty.TruckQueue - Truck 23 is waiting for terminal...
+2021-12-06 00:55:50 [pool-2-thread-16] INFO  by.epam.task5.entitty.TruckQueue - Truck 25 is waiting for terminal...
+2021-12-06 00:55:50 [pool-2-thread-2] INFO  by.epam.task5.entitty.Terminal - Truck 11 is being loaded ... -10
+2021-12-06 00:55:50 [pool-2-thread-18] INFO  by.epam.task5.entitty.Terminal - Truck 27 is being loaded ... -40
+2021-12-06 00:55:50 [pool-2-thread-1] INFO  by.epam.task5.entitty.Terminal - Truck 10 is being loaded ... -10
+2021-12-06 00:55:50 [pool-2-thread-11] INFO  by.epam.task5.entitty.Terminal - Truck 20 is being loaded ... -20
+2021-12-06 00:55:50 [pool-2-thread-13] INFO  by.epam.task5.entitty.Terminal - Truck 22 is being loaded ... -20
+2021-12-06 00:55:50 [pool-2-thread-18] INFO  by.epam.task5.entitty.Base - The current size of warehouse is 366
+2021-12-06 00:55:50 [pool-2-thread-13] INFO  by.epam.task5.entitty.Base - The current size of warehouse is 326
+2021-12-06 00:55:50 [pool-2-thread-11] INFO  by.epam.task5.entitty.Base - The current size of warehouse is 346
+2021-12-06 00:55:50 [pool-2-thread-1] INFO  by.epam.task5.entitty.Base - The current size of warehouse is 406
+2021-12-06 00:55:50 [pool-2-thread-2] INFO  by.epam.task5.entitty.Base - The current size of warehouse is 416
+2021-12-06 00:55:50 [pool-2-thread-13] INFO  by.epam.task5.entitty.Base - pool-2-thread-13 released 1
+2021-12-06 00:55:50 [pool-2-thread-2] INFO  by.epam.task5.entitty.Base - pool-2-thread-2 released 3
+2021-12-06 00:55:50 [pool-2-thread-11] INFO  by.epam.task5.entitty.Base - pool-2-thread-11 released 5
+2021-12-06 00:55:50 [pool-2-thread-17] INFO  by.epam.task5.entitty.Base - Truck 26 got terminal 1
+2021-12-06 00:55:50 [pool-2-thread-17] INFO  by.epam.task5.entitty.Terminal - Truck 26 is being unloaded... +30
+2021-12-06 00:55:50 [pool-2-thread-17] INFO  by.epam.task5.entitty.Base - The current size of warehouse is 356
+2021-12-06 00:55:50 [pool-2-thread-1] INFO  by.epam.task5.entitty.Base - pool-2-thread-1 released 2
+2021-12-06 00:55:50 [pool-2-thread-18] INFO  by.epam.task5.entitty.Base - pool-2-thread-18 released 4
+2021-12-06 00:55:50 [main] INFO  by.epam.task5.main.Main - Truck #10 has been served by terminal #2. Truck isPerishable - false
+2021-12-06 00:55:50 [pool-2-thread-19] INFO  by.epam.task5.entitty.Base - Truck 28 got terminal 3
+2021-12-06 00:55:50 [main] INFO  by.epam.task5.main.Main - Truck #11 has been served by terminal #3. Truck isPerishable - false
+2021-12-06 00:55:50 [pool-2-thread-19] INFO  by.epam.task5.entitty.Terminal - Truck 28 is being unloaded... +35
+2021-12-06 00:55:50 [pool-2-thread-9] INFO  by.epam.task5.entitty.Base - Truck 18 got terminal 5
+2021-12-06 00:55:50 [pool-2-thread-19] INFO  by.epam.task5.entitty.Base - The current size of warehouse is 391
+2021-12-06 00:55:50 [pool-2-thread-9] INFO  by.epam.task5.entitty.Terminal - Truck 18 is being unloaded... +18
+2021-12-06 00:55:50 [pool-2-thread-10] INFO  by.epam.task5.entitty.Base - Truck 19 got terminal 2
+2021-12-06 00:55:50 [pool-2-thread-9] INFO  by.epam.task5.entitty.Base - The current size of warehouse is 409
+2021-12-06 00:55:50 [pool-2-thread-10] INFO  by.epam.task5.entitty.Terminal - Truck 19 is being unloaded... +20
+2021-12-06 00:55:50 [pool-2-thread-12] INFO  by.epam.task5.entitty.Base - Truck 21 got terminal 4
+2021-12-06 00:55:50 [pool-2-thread-10] INFO  by.epam.task5.entitty.Base - The current size of warehouse is 429
+2021-12-06 00:55:50 [pool-2-thread-12] INFO  by.epam.task5.entitty.Terminal - Truck 21 is being unloaded... +20
+2021-12-06 00:55:50 [pool-2-thread-12] INFO  by.epam.task5.entitty.Base - The current size of warehouse is 449
+2021-12-06 00:55:51 [pool-2-thread-12] INFO  by.epam.task5.entitty.Terminal - Truck 21 is being loaded ... -20
+2021-12-06 00:55:51 [pool-2-thread-19] INFO  by.epam.task5.entitty.Terminal - Truck 28 is being loaded ... -40
+2021-12-06 00:55:51 [pool-2-thread-12] INFO  by.epam.task5.entitty.Base - The current size of warehouse is 429
+2021-12-06 00:55:51 [pool-2-thread-10] INFO  by.epam.task5.entitty.Terminal - Truck 19 is being loaded ... -20
+2021-12-06 00:55:51 [pool-2-thread-10] INFO  by.epam.task5.entitty.Base - The current size of warehouse is 369
+2021-12-06 00:55:51 [pool-2-thread-9] INFO  by.epam.task5.entitty.Terminal - Truck 18 is being loaded ... -20
+2021-12-06 00:55:51 [pool-2-thread-19] INFO  by.epam.task5.entitty.Base - The current size of warehouse is 389
+2021-12-06 00:55:51 [pool-2-thread-17] INFO  by.epam.task5.entitty.Terminal - Truck 26 is being loaded ... -30
+2021-12-06 00:55:51 [pool-2-thread-17] INFO  by.epam.task5.entitty.Base - The current size of warehouse is 339
+2021-12-06 00:55:51 [pool-2-thread-9] INFO  by.epam.task5.entitty.Base - The current size of warehouse is 319
+2021-12-06 00:55:51 [pool-2-thread-17] INFO  by.epam.task5.entitty.Base - pool-2-thread-17 released 1
+2021-12-06 00:55:51 [pool-2-thread-9] INFO  by.epam.task5.entitty.Base - pool-2-thread-9 released 5
